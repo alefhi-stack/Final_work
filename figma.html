@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Home</title>
+  <link rel="stylesheet" href="figma.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
+</head>
+<body>
+  <header>
+    <div class="top-bar">
+      <i class="fa-solid fa-house icon"></i>
+      <h1>My Home</h1>
+      <i class="fa-regular fa-bell icon"></i>
+    </div>
+  </header>
+
+  <main>
+    <section class="temperature">
+        <div class="circle">
+          <h2 id="temperature">21°</h2>
+          <p>Current</p>
+        </div>
+    
+        <div class="controls">
+          <button id="decreaseTemp">-</button>
+          <button id="increaseTemp">+</button>
+        </div>
+      </section>
+     
+
+      <div class="info-cards">
+        <div class="info">
+            <h3 id="humidity">45%</h3>
+        </div>
+        <div class="info">
+          <p>Air Quality</p>
+          <h3 class="good">Good</h3>
+        </div>
+        <div class="info">
+          <p>Mode</p>
+          <h3>Eco</h3>
+        </div>
+      </div>
+    </section>
+
+    <section class="rooms">
+      <h2>Rooms</h2>
+      <div class="room">
+        <div class="room-info">
+          <i class="fa-solid fa-bed icon"></i>
+          <div>
+            <h3>Bedroom</h3>
+            <p>Target: 20°C</p>
+          </div>
+        </div>
+        <span class="temp">19°</span>
+      </div>
+
+      <div class="room">
+        <div class="room-info">
+          <i class="fa-solid fa-couch icon"></i>
+          <div>
+            <h3>Living Room</h3>
+            <p>Target: 22°C</p>
+          </div>
+        </div>
+        <span class="temp">22°</span>
+      </div>
+
+      <div class="room">
+        <div class="room-info">
+          <i class="fa-solid fa-utensils icon"></i>
+          <div>
+            <h3>Kitchen</h3>
+            <p>Target: 21°C</p>
+          </div>
+        </div>
+        <span class="temp">23°</span>
+      </div>
+    </section>
+  </main>
+
+  <nav class="bottom-nav">
+    <a href="figma.html" class="active"><i class="fa-solid fa-house"></i><br>Home</a>
+    <a href="rooms.html"><i class="fa-solid fa-door-open icon"></i><br>Rooms</a>
+    <a href="settings.html"><i class="fa-solid fa-gear icon"></i><br>Settings</a>
+  </nav>
+
+  <script src="AdafruitIO.js"></script>
+<script src="figma.js"></script>
+
+
+</body>
+</html>

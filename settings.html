@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Settings</title>
+    <link rel="stylesheet" href="figma.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="top-bar">
+        <i class="fa-solid fa-gear icon"></i>
+        <h1>Settings</h1>
+        <i class="fa-regular fa-bell icon"></i>
+      </div>
+    </header>
+
+    <button id="themeToggle" aria-label="Changer le thème">Change Theme</button>
+
+    <main>
+      <section class="settings">
+        <div class="setting-item">
+          <p>Mode</p>
+          <select>
+            <option>Eco</option>
+            <option>Comfort</option>
+            <option>Performance</option>
+          </select>
+        </div>
+
+        <div class="setting-item">
+          <p>Temperature Unit</p>
+          <select>
+            <option>°C</option>
+            <option>°F</option>
+          </select>
+        </div>
+
+        <div class="setting-item">
+          <p>Notifications</p>
+          <label class="switch">
+            <input type="checkbox" checked />
+            <span class="slider"></span>
+          </label>
+        </div>
+
+        <div class="setting-item">
+          <p>Theme</p>
+          <select>
+            <option>Light</option>
+            <option>Dark</option>
+          </select>
+        </div>
+      </section>
+    </main>
+
+    <nav class="bottom-nav">
+      <a href="figma.html"><i class="fa-solid fa-house icon"></i><br />Home</a>
+      <a href="rooms.html"
+        ><i class="fa-solid fa-door-open icon"></i><br />Rooms</a
+      >
+      <a href="settings.html" class="active"
+        ><i class="fa-solid fa-gear icon"></i><br />Settings</a
+      >
+    </nav>
+  </body>
+
+  <script src="figma.js"></script>
+</html>
