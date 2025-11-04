@@ -19,9 +19,6 @@ Below is the schematic view of the circuit used in this project:
 
 
 
-![Schematic view](./images/schematic_view.png)
-*(Replace with the actual path to your image file)*
-
 
 ---
 
