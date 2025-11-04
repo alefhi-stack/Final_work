@@ -9,6 +9,16 @@
 ### Schematic view
 Below is the schematic view of the circuit used in this project:
 
+
+<img width="660" height="1434" alt="IMG_2414" src="https://github.com/user-attachments/assets/571c92d2-1b98-4b9a-83ff-d0d12d8cf3a7" />
+
+
+
+
+
+
+
+
 ![Schematic view](./images/schematic_view.png)
 *(Replace with the actual path to your image file)*
 
@@ -40,5 +50,5 @@ The complete user flow can be viewed here:
  
  
  <img width="251" height="555" alt="Capture d’écran 2025-11-04 à 17 19 55" src="https://github.com/user-attachments/assets/285e4401-1192-4d2b-bd26-8c206838db6a" />
-p=f)
+
 
